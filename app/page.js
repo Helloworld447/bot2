@@ -1,9 +1,8 @@
 "use client";
-require("dotenv").config();
-
 import { Box, Button, Stack, TextField } from "@mui/material";
 import { useState } from "react";
 //import Image from "next/image";
+//To add more features to this bot, follow:https://medium.com/@billzhangsc/building-an-ai-powered-support-assistant-with-next-js-and-openai-3c2c8e18cd4c
 
 export default function Home() {
   const [messages, setMessages] = useState([
